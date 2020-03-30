@@ -1,0 +1,13 @@
+[INFO ] 2020-03-25 21:40:14.285 [main] Log4JDemo - This is an Information
+[ERROR] 2020-03-25 21:40:14.291 [main] Log4JDemo - This is an Error Mesage
+[WARN ] 2020-03-25 21:40:14.292 [main] Log4JDemo - This is an Warming message
+[FATAL] 2020-03-25 21:40:14.292 [main] Log4JDemo - This is a fatal error
+[INFO ] 2020-03-25 21:42:31.582 [main] Log4JDemo - This is an Information
+[ERROR] 2020-03-25 21:42:31.585 [main] Log4JDemo - This is an Error Mesage
+[WARN ] 2020-03-25 21:42:31.585 [main] Log4JDemo - This is an Warming message
+[FATAL] 2020-03-25 21:42:31.586 [main] Log4JDemo - This is a fatal error
+[TRACE] 2020-03-25 21:43:51.051 [main] Log4JDemo - This is a Trace message
+[INFO ] 2020-03-25 21:43:51.060 [main] Log4JDemo - This is an Information
+[ERROR] 2020-03-25 21:43:51.061 [main] Log4JDemo - This is an Error Mesage
+[WARN ] 2020-03-25 21:43:51.061 [main] Log4JDemo - This is an Warming message
+[FATAL] 2020-03-25 21:43:51.061 [main] Log4JDemo - This is a fatal error
