@@ -1,8 +1,8 @@
-package Test;
+package test;
 
 import org.testng.annotations.Test;
 
-import Configuration.PropertiesFiles;
+import configuration.PropertiesFiles;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

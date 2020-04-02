@@ -2,6 +2,9 @@ package multiBrowserUsingTestNG;
 
 
 import org.testng.annotations.Test;
+
+import configuration.PropertiesFiles;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -14,7 +17,6 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import Configuration.PropertiesFiles;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class MultipBrowserTestNGDemo {

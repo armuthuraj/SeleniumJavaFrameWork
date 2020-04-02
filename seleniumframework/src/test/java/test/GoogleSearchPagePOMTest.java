@@ -1,11 +1,11 @@
-package Test;
+package test;
 
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import Pages.GoogleSearchPagePOM;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pages.GoogleSearchPagePOM;
 
 public class GoogleSearchPagePOMTest {
 	static WebDriver driver = null;

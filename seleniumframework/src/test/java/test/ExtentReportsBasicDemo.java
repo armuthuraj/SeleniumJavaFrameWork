@@ -1,4 +1,4 @@
-package Test;
+package test;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -10,8 +10,8 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
-import Pages.GoogleSearchPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pages.GoogleSearchPage;
 
 public class ExtentReportsBasicDemo {
 

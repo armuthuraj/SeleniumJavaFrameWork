@@ -1,4 +1,4 @@
-package TestNGIgnore;
+package testNGIgnore;
 
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;

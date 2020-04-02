@@ -30,6 +30,7 @@ public class ImplicitAndExplicitWaitDemo {
 		//Explicit wait
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.name("hjk")));
+		element.click();
 	
 		driver.close();
 		driver.quit();

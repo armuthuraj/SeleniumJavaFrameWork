@@ -1,11 +1,12 @@
-package Test;
+package test;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import Pages.GoogleSearchPage;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pages.GoogleSearchPage;
 
 public class GoogleSearchPageTest {
 	private static WebDriver driver = null;

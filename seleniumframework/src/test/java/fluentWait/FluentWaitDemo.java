@@ -41,8 +41,9 @@ public class FluentWaitDemo {
 		    		 System.out.println("Element is displayed");
 		    	 }
 		       return elementLink;
-		     }
+		     }	
 		   });
+		   element.click();
 		driver.close();
 		driver.quit();
 		
@@ -51,29 +52,21 @@ public class FluentWaitDemo {
 }
 /*
 What is fluent wait
-
 Fluent Wait - a class in Selenium api
-
 When you want to:
 apply wait to specific element
 set max wait time period
 set polling frequency
 set to ignore specific exceptions
-
 Syntax :
  
   Wait wait = new FluentWait(driver)
     .withTimeout(30, SECONDS)
     .pollingEvery(5, SECONDS)
     .ignoring(NoSuchElementException.class);
-
 Why we use waits
 The elements load time on a web page can vary
-
 Not all the elements are loaded at the same time
-
 In applications developed using Ajax, Javascript etc, objects on web page may load at different time
-
 To handle this, we need to use waits in Selenium
-
 With the help of waits, we can enable the script to wait for sometime before throwing No Such Element exception*/

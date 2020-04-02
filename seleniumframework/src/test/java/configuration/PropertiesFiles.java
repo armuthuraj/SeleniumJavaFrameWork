@@ -1,4 +1,4 @@
-package Configuration;
+package configuration;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
