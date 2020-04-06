@@ -88,7 +88,8 @@
         <version>3.0.0-M4</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testngDemo.xml</suiteXmlFile>
+            <suiteXmlFile>testngParameterizeDemo.xml</suiteXmlFile> <!-- HardCoded -->
+            <!--suiteXmlFile>${fileName}</suiteXmlFile>  --> <!-- Parameterized -->
           </suiteXmlFiles>
         </configuration>
       </plugin>

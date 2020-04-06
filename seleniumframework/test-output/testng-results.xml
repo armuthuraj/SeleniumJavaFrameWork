@@ -1,51 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-01T20:22:09 MDT" name="Suite_TestNGDemo" finished-at="2020-04-01T20:22:33 MDT" duration-ms="23456">
+  <suite started-at="2020-04-03T11:12:22 MDT" name="Suite" finished-at="2020-04-03T11:12:45 MDT" duration-ms="22203">
     <groups>
     </groups>
-    <test started-at="2020-04-01T20:22:09 MDT" name="Test_TestNGDemo" finished-at="2020-04-01T20:22:33 MDT" duration-ms="23456">
-      <class name="test.TestNGDemo2">
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:test.TestNGDemo2@2ddc8ecb]" started-at="2020-04-01T20:22:17 MDT" name="setUpTest" finished-at="2020-04-01T20:22:21 MDT" duration-ms="4308" status="PASS">
+    <test started-at="2020-04-03T11:12:22 MDT" name="TestOnChrome" finished-at="2020-04-03T11:12:36 MDT" duration-ms="13488">
+      <class name="multiBrowserUsingTestNG.MultipBrowserTestNGDemo">
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:multiBrowserUsingTestNG.MultipBrowserTestNGDemo@33afa13b]" started-at="2020-04-03T11:12:23 MDT" name="setUpTest" finished-at="2020-04-03T11:12:31 MDT" duration-ms="8087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="googleSearch3()[pri:0, instance:test.TestNGDemo2@2ddc8ecb]" started-at="2020-04-01T20:22:21 MDT" name="googleSearch3" finished-at="2020-04-01T20:22:29 MDT" duration-ms="7677" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- googleSearch3 -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:test.TestNGDemo2@2ddc8ecb]" started-at="2020-04-01T20:22:33 MDT" name="tearDownTest" finished-at="1969-12-31T17:00:00 MST" duration-ms="-1585794153417" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-      </class> <!-- test.TestNGDemo2 -->
-      <class name="test.TestNGDemo">
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:test.TestNGDemo@6973bf95]" started-at="2020-04-01T20:22:09 MDT" name="setUpTest" finished-at="2020-04-01T20:22:17 MDT" duration-ms="7520" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTest -->
-        <test-method signature="googleSearch()[pri:0, instance:test.TestNGDemo@6973bf95]" started-at="2020-04-01T20:22:21 MDT" name="googleSearch" finished-at="2020-04-01T20:22:23 MDT" duration-ms="1169" status="PASS">
+        <test-method signature="googleSearch()[pri:0, instance:multiBrowserUsingTestNG.MultipBrowserTestNGDemo@33afa13b]" started-at="2020-04-03T11:12:31 MDT" name="googleSearch" finished-at="2020-04-03T11:12:36 MDT" duration-ms="5077" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleSearch -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:test.TestNGDemo@6973bf95]" started-at="2020-04-01T20:22:29 MDT" name="tearDownTest" finished-at="2020-04-01T20:22:33 MDT" duration-ms="3865" status="FAIL">
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:multiBrowserUsingTestNG.MultipBrowserTestNGDemo@33afa13b]" started-at="2020-04-03T11:12:36 MDT" name="tearDownTest" finished-at="2020-04-03T11:12:36 MDT" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- multiBrowserUsingTestNG.MultipBrowserTestNGDemo -->
+    </test> <!-- TestOnChrome -->
+    <test started-at="2020-04-03T11:12:22 MDT" name="TestOnFirefox" finished-at="2020-04-03T11:12:45 MDT" duration-ms="22202">
+      <class name="multiBrowserUsingTestNG.MultipBrowserTestNGDemo">
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:multiBrowserUsingTestNG.MultipBrowserTestNGDemo@670002]" started-at="2020-04-03T11:12:23 MDT" name="setUpTest" finished-at="2020-04-03T11:12:34 MDT" duration-ms="11448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="googleSearch()[pri:0, instance:multiBrowserUsingTestNG.MultipBrowserTestNGDemo@670002]" started-at="2020-04-03T11:12:34 MDT" name="googleSearch" finished-at="2020-04-03T11:12:40 MDT" duration-ms="5833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:multiBrowserUsingTestNG.MultipBrowserTestNGDemo@670002]" started-at="2020-04-03T11:12:40 MDT" name="tearDownTest" finished-at="2020-04-03T11:12:45 MDT" duration-ms="4883" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Muthus-MacBook-Pro.local', ip: 'fe80:0:0:0:1caf:7e9d:79b6:c479%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '13.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 5534, moz:profile: /var/folders/pr/_5ht_0193tg..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.3.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4a56d429-56e7-e845-a063-045ea60c3857]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10287, moz:profile: /var/folders/pr/_5ht_0193tg..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.3.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 66043258-fa87-7f43-a87b-1c9ece30b24f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Muthus-MacBook-Pro.local', ip: 'fe80:0:0:0:1caf:7e9d:79b6:c479%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '13.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 5534, moz:profile: /var/folders/pr/_5ht_0193tg..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.3.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4a56d429-56e7-e845-a063-045ea60c3857
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10287, moz:profile: /var/folders/pr/_5ht_0193tg..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.3.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 66043258-fa87-7f43-a87b-1c9ece30b24f
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -59,7 +75,7 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
 at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
-at test.TestNGDemo.tearDownTest(TestNGDemo.java:47)
+at multiBrowserUsingTestNG.MultipBrowserTestNGDemo.tearDownTest(MultipBrowserTestNGDemo.java:57)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -72,25 +88,20 @@ at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
 at org.testng.TestRunner.afterRun(TestRunner.java:849)
 at org.testng.TestRunner.run(TestRunner.java:590)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-      </class> <!-- test.TestNGDemo -->
-    </test> <!-- Test_TestNGDemo -->
-  </suite> <!-- Suite_TestNGDemo -->
+      </class> <!-- multiBrowserUsingTestNG.MultipBrowserTestNGDemo -->
+    </test> <!-- TestOnFirefox -->
+  </suite> <!-- Suite -->
 </testng-results>

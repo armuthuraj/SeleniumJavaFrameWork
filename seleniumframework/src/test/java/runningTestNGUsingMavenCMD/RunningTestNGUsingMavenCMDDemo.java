@@ -1,11 +1,9 @@
-package runningTestNGFrommavenCLI;
+package runningTestNGUsingMavenCMD;
 
-public class RunningTestNGfromMVN_CLI_demo {
+public class RunningTestNGUsingMavenCMDDemo {
 
 }
-/*https://automationstepbystep.com/
-
-Today we will learn
+/*Today we will learn
 
 1 How to run testng tests from maven cmd
 2 How to provide testng xml at runtime
@@ -46,7 +44,7 @@ How to run testng from maven command line
 
 Step 1
 Add maven surefire plugin in pom.xml
-https://maven.apache.org/surefire/mav...
+http://maven.apache.org/surefire/maven-surefire-plugin/
 
 Step 2
 Provide location of your testng.xml file
@@ -56,18 +54,33 @@ Step 3
 Open cmd and goto location of project
 
 Step 4
-Run command | mvn clean test
+Run command | mvn clean test (If you are getting any error message the run "mvn clean" first then run "mvn Clean test"
 
 
 How to provide testng.xml file name at runtime
-#################################################################################################
+
 Step 1
 In pom.xml in place of testng.xml file name give a reference
 ${fileName}
 
 Step 2
 In command add parameter
--DfileName=testng1.xml
-##############################################################################################
+-DfileName=testng1.xml before mvn clean test
 
-How to include or exclude specific tests*/
+
+How to include or exclude specific tests
+
+REPLACE SUITE TAG WITH INCLUDE OR EXCLUDE TAG
+
+<includes>
+            <include>%regex[.*(Cat|Dog).*Test.*]</include>
+          </includes>
+          
+          OR
+          
+    <excludes>
+           <exclude>TestCircle.java</exclude>
+            <exclude>TestSquare.java</exclude>
+         </excludes>
+*/
+

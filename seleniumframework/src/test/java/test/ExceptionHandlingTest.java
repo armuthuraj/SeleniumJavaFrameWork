@@ -13,7 +13,7 @@ public class ExceptionHandlingTest {
 			System.out.println(e.getCause());
 			e.printStackTrace();
 			
-		}//You can have many catch block 
+		}//You can have many catch block or No catch block but finally block is mandatory 
 		finally {
 			System.out.println("I am inside the final");
 			
