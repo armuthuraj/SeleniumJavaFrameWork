@@ -90,6 +90,7 @@
           <suiteXmlFiles>
             <suiteXmlFile>testngParameterizeDemo.xml</suiteXmlFile> <!-- HardCoded -->
             <!--suiteXmlFile>${fileName}</suiteXmlFile>  --> <!-- Parameterized -->
+            <!--CTRL + SHIFT + FORWARD SLASH WILL YEID COMMENTS  -->
           </suiteXmlFiles>
         </configuration>
       </plugin>
