@@ -10,3 +10,11 @@ public class PublishTestNGResultInJenkins {
 	//relative path - Go to your project/job then in general section click on "Advance" -> then choose "use custom workspace" and give the path of your framework directoy here
 
 }
+
+
+/*****************************************
+ * Jenkins - Test Result Analyzer Plugin
+ * Add "Test Result Analyzer" plugin
+ * 
+ */
+
